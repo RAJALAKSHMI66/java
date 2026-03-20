@@ -1,4 +1,5 @@
 package Array;
+//only n/2 chocolates allowed
 //Input: candyType = [1,1,2,2,3,3]
 //Output: 3
 //Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types, she can eat one of each type.
@@ -10,7 +11,6 @@ class distribute_candies {
         for (int i = 0; i < candyType.length; i++) {
             distinct.add(candyType[i]);
         }
-
         // Step 2: maximum candies she can eat
         int maxCandies = candyType.length / 2;
 

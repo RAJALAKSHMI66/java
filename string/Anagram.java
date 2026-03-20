@@ -25,8 +25,6 @@ public class Anagram {
 }
 
 
-
-
 //without hashmap
 
 

@@ -23,8 +23,19 @@ public class find_all_disappeared_numbers {
         return missing;
     }
     public static  void main(String[]args){
-        int []nums={4,3,2,7,8,2,3,1};
-        List result=findDisappearedNumbers(nums);
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter array: ");
+        String n=scan.nextLine();
+        n=n.replace("[", "").replace("]","");
+        String []nums=n.split("[,\\s]+");
+//        int []nums={4,3,2,7,8,2,3,1};
+//        List result=findDisappearedNumbers(nums);
+//        System.out.println(result);
+        int[] arr=new int[nums.length];
+        for(int i=0;i<nums.length;i++){
+            arr[i]=Integer.parseInt(nums[i]);
+        }
+        List result=findDisappearedNumbers(arr);
         System.out.println(result);
     }
 }

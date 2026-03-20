@@ -59,3 +59,23 @@ class keyboard_row {
     }
 }
 
+//import java.util.*;
+//
+//class KeyboardRow {
+//    public static String[] findWords(String[] words) {
+//
+//        ArrayList<String> result = new ArrayList<>();
+//
+//        for (int i = 0; i < words.length; i++) {
+//
+//            if (words[i].toLowerCase().matches("[qwertyuiop]+") ||
+//                    words[i].toLowerCase().matches("[asdfghjkl]+") ||
+//                    words[i].toLowerCase().matches("[zxcvbnm]+")) {
+//
+//                result.add(words[i]);
+//            }
+//        }
+//
+//        return result.toArray(new String[0]);
+//    }
+//}

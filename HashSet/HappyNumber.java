@@ -1,7 +1,7 @@
 
 //Input: n = 19
 //        Output: true
-//        Explanation:
+//        Explanation: 19=>1^2+9^2=>82
 //        12 + 92 = 82
 //        82 + 22 = 68
 //        62 + 82 = 100

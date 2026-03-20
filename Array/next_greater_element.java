@@ -20,7 +20,7 @@ public class next_greater_element {
             int num = nums1[i];
             boolean found = false;
             for (int j = 0; j < nums2.length; j++) {
-                if (nums2[j] == num) {  // ✅ use j, not i
+                if (nums2[j] == num) {  //  use j, not i
                     for (int k = j + 1; k < nums2.length; k++) {
                         if (nums2[k] > num) {
                             result[i] = nums2[k];
@@ -42,7 +42,7 @@ public class next_greater_element {
         int[] nums1 = {4, 1, 2};
         int[] nums2 = {1, 3, 4, 2};
         int[] result = nextGreaterElement(nums1, nums2);
-        System.out.println(Arrays.toString(result)); // ✅ print array nicely
+        System.out.println(Arrays.toString(result)); //  print array nicely
     }
 }
 

@@ -1,11 +1,11 @@
-package Array;//Input: nums = [1,3,5,6], target = 5
+package Array;
+
+//Input: nums = [1,3,5,6], target = 5
 //Output: 2
 //Example 2:
 //
 //Input: nums = [1,3,5,6], target = 2
 //Output: 1
-
-
 
 public class search_insert_position {
     public static int searchInsert(int[]nums,int target){

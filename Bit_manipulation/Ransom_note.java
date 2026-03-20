@@ -1,5 +1,4 @@
 package Bit_manipulation;
-
 public class Ransom_note {
     public static boolean RansomNote(String ransomnote,String maganize){
         if(ransomnote.length()>maganize.length()){
